@@ -13,7 +13,7 @@
     
 ## Módulo 3: Procesamiento de Datos en Python
 * [Link al video]Pendiente 🎦
-* [Link al repositorio](https://github.com/napoleonleal/R-BEDU-Project) 🗂
+* [Link al repositorio](https://github.com/maggiesam/BEDU-Santander-DataScience/tree/main/Procesamiento%20de%20datos) 🗂
 * [Link al Colab](https://colab.research.google.com/drive/1pec6HI5K_kYnJajRxQepK6cfnJjQfiN_?usp=sharing#scrollTo=mxB2FJKWG650) 📑
 
   
