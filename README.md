@@ -4,12 +4,12 @@
 
 ## Integrantes:
 
-    *María Magdalena Castro Sam
-    *Sergio Napoleón Leal
-    *Jesús Omar Magaña Medina
-    *Fernando Itzama Novales Campos
-    *Adrián Ramírez Cortés
-    *Efraín Soto Olmos
+    * María Magdalena Castro Sam
+    * Sergio Napoleón Leal
+    * Jesús Omar Magaña Medina
+    * Fernando Itzama Novales Campos
+    * Adrián Ramírez Cortés
+    * Efraín Soto Olmos
     
 ## Módulo 3: Procesamiento de Datos en Python
 * [Link al video]Pendiente 🎦
