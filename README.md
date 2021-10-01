@@ -1,4 +1,4 @@
-# BEDU-Santander-DataScience - Equipo 10
+# BEDU-Santander-DataScience - Equipo 4
 
 # El impacto de la sequía en México
 
