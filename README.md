@@ -11,6 +11,11 @@
     * Adrián Ramírez Cortés
     * Efraín Soto Olmos
     
+## Módulo 4: Análisis de Datos con Python
+* [Link al video]🎦
+* [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-Santander-DataScience/tree/main/Procesamiento%20de%20datos) 🗂
+* [Link al Colab](https://colab.research.google.com/drive/18bDcNANyzHrjMP1NHz46xHTj6WVP8AKN) 📑
+    
 ## Módulo 3: Procesamiento de Datos en Python
 * [Link al video](https://www.youtube.com/watch?v=kZyzIE8PqnA) 🎦
 * [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-Santander-DataScience/tree/main/Procesamiento%20de%20datos) 🗂
