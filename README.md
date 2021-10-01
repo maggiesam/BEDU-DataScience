@@ -12,7 +12,7 @@
     * Efraín Soto Olmos
     
 ## Módulo 4: Análisis de Datos con Python
-* [Link al video]🎦
+* [Link al video](https://www.youtube.com/watch?v=_XpGtJhhqNU)🎦
 * [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-DataScience/blob/main/An%C3%A1lisis%20de%20Datos/Equipo_4_Analisis_de_datos_con_Python.ipynb) 🗂
 * [Link al Colab](https://colab.research.google.com/drive/18bDcNANyzHrjMP1NHz46xHTj6WVP8AKN) 📑
     
