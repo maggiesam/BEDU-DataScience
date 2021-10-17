@@ -26,7 +26,7 @@ def kfold(k):
   return kfold
 
 #Funciones de evaluación con matriz de confusión.
-def conf_matrix(y_esperados, y_predichos)
+def conf_matrix(y_esperados, y_predichos):
   matrix = confusion_matrix(y_esperados, y_predichos)
   return matrix
 
