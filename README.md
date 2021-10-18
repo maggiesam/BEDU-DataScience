@@ -11,6 +11,11 @@
     * Adrián Ramírez Cortés
     * Efraín Soto Olmos
     
+## Módulo 5: Machine Learning
+* [Link al video]()🎦
+* [Link al código en Jupyter Notebook]() 🗂
+* [Link al Colab](https://colab.research.google.com/drive/1SvF4DL-IWhFCYzzA9B_MfVmodrT38rvh?usp=sharing#scrollTo=XmiL23YmN5Gq) 📑    
+
 ## Módulo 4: Análisis de Datos con Python
 * [Link al video](https://www.youtube.com/watch?v=_XpGtJhhqNU)🎦
 * [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-DataScience/blob/main/Analisis%20de%20datos/Equipo_4_Analisis_de_datos_con_Python.ipynb) 🗂
