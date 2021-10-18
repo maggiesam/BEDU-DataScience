@@ -12,8 +12,6 @@
     * Efraín Soto Olmos
     
 ## Módulo 5: Machine Learning
-* [Link al video]()🎦
-* [Link al código en Jupyter Notebook]() 🗂
 * [Link al Colab](https://colab.research.google.com/drive/1SvF4DL-IWhFCYzzA9B_MfVmodrT38rvh?usp=sharing#scrollTo=XmiL23YmN5Gq) 📑    
 
 ## Módulo 4: Análisis de Datos con Python
