@@ -1,4 +1,23 @@
-Bitácora del poswork 4 por Efraín Soto Olmos
+
+## Bitácora del poswork 3 por Jesus Omar Magaña Medina
+
+Fecha y hora: 16 / oc / 2021 -- 06:00pm
+
+Algoritmo: K-means
+
+Dataset: dataframe-junto.csv
+
+Configuración:
+Algoritmo K-means
+Numero de Clusters: 4
+Métodos usados para elegir el numero óptimo de Clusters: Metodo del codo y silueta
+Método para reducción de datos: PCA
+
+Resultado:
+Varianza acumulada explicada por mis dos nuevas variables: 61.44% 
+
+
+## Bitácora del poswork 4 por Efraín Soto Olmos
 Se modelaron utilizando la función regresión_lineal de la librería MLUtilities
 
 Se utilizan las variables independientes de, Temperatura_maxima, Temperatura_minima, Temperatura_promedio, precipitacion y Siembrea_ha. Como variable dependiente se creo una nueva columna con el porcentaje de siembra cosechado.
