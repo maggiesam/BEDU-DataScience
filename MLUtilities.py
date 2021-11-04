@@ -1224,8 +1224,6 @@ def formato_linea(data):
 
 
 def descomposicion(data, name=None):
-  if name != None:
-    plt.title(name)
   rcParams['figure.figsize'] = 20, 10
   decomposition = sm.tsa.seasonal_decompose(data, model='additive')
   fig = decomposition.plot()
@@ -1298,4 +1296,4 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True):
  #   plt.text(0, 0, 'Hello World!', fontsize=20, color='green')
     plt.show()
 
-    return predicciones, error_mse, predictor
+    return predicciones, predictor
