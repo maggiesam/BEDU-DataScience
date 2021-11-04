@@ -1223,10 +1223,25 @@ def formato_linea(data):
 
 
 
-def descomposicion(data, name=None):
-  rcParams['figure.figsize'] = 20, 10
-  decomposition = sm.tsa.seasonal_decompose(data, model='additive')
-  fig = decomposition.plot()
+def descomposicion(data, name="Aguascaslientes", model="additive"):
+  plt.figure(figsize=(20,10))
+  decomposition = sm.tsa.seasonal_decompose(data, model=model)
+  plt.subplot(4,1,1)
+  plt.plot(decomposition.observed)
+  plt.ylabel("Observado")
+  plt.title(f"Modelo {model}",fontsize=18)
+  plt.subplot(4,1,4)
+  plt.plot(decomposition.resid)
+  plt.ylabel("Reciduo")
+  plt.subplot(4,1,2)
+  plt.plot(decomposition.seasonal)
+  plt.ylabel("Seasonal")
+  plt.subplot(4,1,3)
+  plt.plot(decomposition.trend)
+  plt.ylabel("Trend")
+
+  plt.suptitle(f"{name}",fontsize=25)
+
   plt.show()
   
   
