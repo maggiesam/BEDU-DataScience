@@ -1223,22 +1223,26 @@ def formato_linea(data):
 
 
 
-def descomposicion(data):
+def descomposicion(data, name=None):
   rcParams['figure.figsize'] = 20, 10
   decomposition = sm.tsa.seasonal_decompose(data, model='additive')
   fig = decomposition.plot()
+  if name != None:
+    plt.title(name)
   plt.show()
   
   
   
   
-def visualizacion(data, steps):
+def visualizacion(data, steps, name=None):
   datos_train = data[:-steps]
   datos_test  = data[(-steps):]
 
   plt.figure(figsize=(20,7))
   datos_train.plot(label='train')
   datos_test.plot(label='test')
+  if name != None:
+    plt.title(name)
   return datos_train,datos_test
 
 
