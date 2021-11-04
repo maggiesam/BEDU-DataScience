@@ -1232,15 +1232,19 @@ def descomposicion(data, name=None):
   
   
   
-def visualizacion(data, steps, name=None):
+def visualizacion(data, steps, dato=None, name=None):
   datos_train = data[:-steps]
   datos_test  = data[(-steps):]
 
   plt.figure(figsize=(20,7))
-  datos_train.plot(label='train')
-  datos_test.plot(label='test')
+  datos_train.plot()
+  datos_test.plot()
+  plt.legend(["train","test"],fontsize=19, loc="upper left")
+  plt.xlabel("Mes", fontsize=15)
+  if dato != None:
+    plt.ylabel(dato, fontsize=15)
   if name != None:
-    plt.title(name)
+    plt.title(name, fontsize=20)
   return datos_train,datos_test
 
 
