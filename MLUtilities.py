@@ -1224,11 +1224,11 @@ def formato_linea(data):
 
 
 def descomposicion(data, name=None):
+  if name != None:
+    plt.title(name)
   rcParams['figure.figsize'] = 20, 10
   decomposition = sm.tsa.seasonal_decompose(data, model='additive')
   fig = decomposition.plot()
-  if name != None:
-    plt.title(name)
   plt.show()
   
   
