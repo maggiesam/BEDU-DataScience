@@ -1284,8 +1284,8 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True, name=None, dat
     plt.figure(figsize=(20,8))
     datos_train.plot()
     datos_test.plot()
-    predicciones.plot(label="predicct")
-    plt.legend(["train","test"],fontsize=18,loc="upper left")
+    predicciones.plot()
+    plt.legend(["train","test","predicct"],fontsize=18,loc="upper left")
     plt.xlabel("Mes",fontsize=18)
     if dato != None:
       plt.ylabel(dato, fontsize=18)
@@ -1313,8 +1313,8 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True, name=None, dat
     plt.figure(figsize=(20,8))
     datos_train.plot()
     datos_test.plot()
-    predicciones.plot(label="predicct")
-    plt.legend(["train","test"],fontsize=18, loc="upper left")
+    predicciones.plot()
+    plt.legend(["train","test","predicct"],fontsize=18, loc="upper left")
     plt.xlabel("Mes",fontsize=18)
     if dato != None:
       plt.ylabel(dato, fontsize=18)
