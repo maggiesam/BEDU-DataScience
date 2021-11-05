@@ -1266,7 +1266,7 @@ def visualizacion(data, steps, dato=None, name=None):
 
 
 
-def forecast(datos_train, datos_test, steps,lags=10, forest=True):
+def forecast(datos_train, datos_test, steps,lags=10, forest=True, name=None, dato=None):
   if forest:
     predictor = ForecasterAutoreg(
         regressor = RandomForestRegressor(random_state=3),
@@ -1282,12 +1282,16 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True):
     )
     
     plt.figure(figsize=(20,8))
-    datos_train.plot(label="train")
-    datos_test.plot(label="test")
+    datos_train.plot()
+    datos_test.plot()
     predicciones.plot(label="predicct")
-    plt.legend()
+    plt.legend(["train","test"],fontsize=18,loc="upper left")
+    plt.xlabel("Mes",fontsize=18)
+    if dato != None:
+      plt.ylabel(dato, fontsize=18)
+    if name != None:
+      plt.suptitle(name, fontsize=23)
     plt.title(f"Random Forest con mse {error_mse}")
-#    plt.text('Hello World!', fontsize=20, color='green')
     plt.show()
 
     return predicciones, error_mse
@@ -1307,12 +1311,16 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True):
     )
     
     plt.figure(figsize=(20,8))
-    datos_train.plot(label="train")
-    datos_test.plot(label="test")
+    datos_train.plot()
+    datos_test.plot()
     predicciones.plot(label="predicct")
-    plt.legend()
-    plt.title(f"Linear Regression con mse {error_mse}")
- #   plt.text(0, 0, 'Hello World!', fontsize=20, color='green')
+    plt.legend(["train","test"],fontsize=18, loc="upper left")
+    plt.xlabel("Mes",fontsize=18)
+    if dato != None:
+      plt.ylabel(dato, fontsize=18)
+    if name != None:
+      plt.suptitle(name, fontsize=23)
+    plt.title(f"Random Forest con mse {error_mse}")
     plt.show()
 
     return predicciones, predictor
