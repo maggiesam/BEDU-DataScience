@@ -1324,3 +1324,98 @@ def forecast(datos_train, datos_test, steps,lags=10, forest=True, name=None, dat
     plt.show()
 
     return predicciones, predictor
+  
+  
+  
+  
+  
+  
+  #Red neuronal- Funciones de Omar
+  
+import pandas as pd
+import numpy as np
+import keras
+import tensorflow as tf
+from keras.preprocessing.sequence import TimeseriesGenerator
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
+import plotly.graph_objects as go
+from sklearn.metrics import mean_squared_error
+import plotly.express as px
+
+
+
+
+def red_neuronal(estado, municipio):
+  filtro = (df['Estado'] == estado) & (df['Municipio'] == municipio)
+  df_filter = df[filtro]
+
+  # Construccion de la red
+  close_data = df_filter['SPI'].values
+  close_data = close_data.reshape((-1,1))
+
+  split_percent = 0.80
+  split = int(split_percent*len(close_data))
+
+  close_train = close_data[:split]
+  close_test = close_data[split:]
+
+  date_train = df_filter['Date'][:split]
+  date_test = df_filter['Date'][split:]
+
+  look_back = 12 
+
+  train_generator = TimeseriesGenerator(close_train, close_train, length=look_back, batch_size=20)     
+  test_generator = TimeseriesGenerator(close_test, close_test, length=look_back, batch_size=1)
+
+  model = Sequential()
+  model.add(
+      LSTM(8,
+          activation='relu',
+          input_shape=(look_back,1))
+  )
+  model.add(Dense(1))
+  model.compile(optimizer='adam', loss='mse')
+
+  num_epochs = 700 
+  model.fit(train_generator, epochs=num_epochs, verbose=1)
+
+  prediction = model.predict(test_generator)
+
+  close_train = close_train.reshape((-1))
+  close_test = close_test.reshape((-1))
+  prediction = prediction.reshape((-1))
+
+  print("Mean Squared Error: ", mean_squared_error(close_test[:len(prediction)], prediction))
+
+  graficar_datos(date_train, date_test, close_train, close_test, prediction, estado + ', ' + municipio)
+  
+  
+  
+  
+def graficar_datos(date_train, date_test, close_train, close_test, prediction, nombre):
+  trace1 = go.Scatter(
+    x = date_train,
+    y = close_train,
+    mode = 'lines',
+    name = 'Data'
+  )
+  trace2 = go.Scatter(
+      x = date_test,
+      y = prediction,
+      mode = 'lines',
+      name = 'Prediction'
+  )
+  trace3 = go.Scatter(
+      x = date_test,
+      y = close_test,
+      mode='lines',
+      name = 'Ground Truth'
+  )
+  layout = go.Layout(
+      title = "Drought Prediction of " + nombre,
+      xaxis = {'title' : "Date"},
+      yaxis = {'title' : "SPI"}
+  )
+  fig = go.Figure(data=[trace1, trace2, trace3], layout=layout)
+  fig.show() #800 modificado
