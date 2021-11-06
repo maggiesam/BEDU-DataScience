@@ -1346,7 +1346,7 @@ import plotly.express as px
 
 
 
-def red_neuronal(estado, municipio):
+def red_neuronal(estado, municipio, df):
   filtro = (df['Estado'] == estado) & (df['Municipio'] == municipio)
   df_filter = df[filtro]
 
