@@ -1378,7 +1378,7 @@ def red_neuronal(estado, municipio, df):
   model.compile(optimizer='adam', loss='mse')
 
   num_epochs = 700 
-  model.fit(train_generator, epochs=num_epochs, verbose=1)
+  model.fit(train_generator, epochs=num_epochs, verbose=0)
 
   prediction = model.predict(test_generator)
 
