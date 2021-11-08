@@ -1,5 +1,3 @@
-# BEDU-Santander-DataScience - Equipo 4
-
 # Estimación climatológica de la sequía y su impacto en México
 
 ## Integrantes:
