@@ -134,6 +134,12 @@ aleatoriedad es muy importante
 La diferencia en cuanto a los hiperparametros y los parámetros es muy poca, por lo que se excluirá el uso de la función para encontrar los hiperparametros debido a que interfiera con
 otras funciones por las versiones de las librerías que se requieren
 
+## Bitácora de la Red Neuronal recurrente LSTM - Jesus Omar Magaña Medina
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+
+
 
 Red neuronal Muna 1.36095568 sin los datos outliers 3.9
 
