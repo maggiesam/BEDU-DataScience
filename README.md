@@ -10,9 +10,12 @@
     * Adrián Ramírez Cortés
     * Efraín Soto Olmos
     
+Este proyecto utilizó una red neuronal de tipo recurrente para generar un modelo tentativo que ayuda a proyectar el comportamiento promedio de la sequía. Esto es utilidad ya que la identificación temprana de este fenómeno puede ayudar a detonar acciones que permitan mitigar los estragos de la sequía, actuando como complemento del sistema de monitoreo de la CONAGUA.
+    
 ## Módulo 5: Machine Learning
 * [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-DataScience/blob/main/Machine%20Learning/Equipo_4_Machine_Learning.ipynb)🗂
 * [Link al Colab](https://colab.research.google.com/drive/1SvF4DL-IWhFCYzzA9B_MfVmodrT38rvh?usp=sharing#scrollTo=XmiL23YmN5Gq) 📑    
+* [Link a la presentación](https://docs.google.com/presentation/d/1r-3NxgxFZ5xXC6nrOrELjvnYtgEuu8lwwEo0nbypcPo/edit?usp=sharing) :page_facing_up: 
 
 ## Módulo 4: Análisis de Datos con Python
 * [Link al video](https://www.youtube.com/watch?v=_XpGtJhhqNU)🎦
