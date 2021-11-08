@@ -138,6 +138,13 @@ otras funciones por las versiones de las librerías que se requieren
 Fecha | Num. capas | Num. capas densas | Num. Neuronas | Func. Activación | Num. meses de base | Epocas | MSE | Resultado
 -- | -- | -- | -- | -- | -- | -- | -- | --
 03-11-21 | 3 | 2 | 100, 256, 100 | RELU | 15 | 100 | 5.400 | No buenos
+03-11-21 | 4 | 3 | 100, 256, 100, 50 | RELU | 15 | 500 | 4.123 | No buenos
+04-11-21 | 2 | 1 | 100, 80| RELU | 20 | 1000 | 2.451 | No buenos
+05-11-21 | 2 | 1 | 50, 25| RELU | 10 | 900 | 2.534 | No buenos
+05-11-21 | 2 | 1 | 20, 10 | RELU | 8 | 500 | 1.233 | No buenos
+06-11-21 | 1 | 1 | 18 | RELU | 15 | 700 | 1.642 | No buenos
+06-11-21 | 1 | 1 | 8| RELU | 15 | 700 | 0.248 | Buenos
+
 
 
 
