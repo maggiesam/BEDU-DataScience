@@ -12,7 +12,7 @@ Este proyecto utilizó una red neuronal de tipo recurrente para generar un model
 
 Repositorio para el curso de Data Science de Bedu  como parte del programa Santander Disruptive Skills.
 
-[Link a los datos utilizados y su descripción](https://github.com/maggiesam/BEDU-DataScience/tree/main/Datasets)
+[Link a los datos utilizados y su descripción.](https://github.com/maggiesam/BEDU-DataScience/tree/main/Datasets)
     
 ## Módulo 5: Machine Learning
 * [Link al código en Jupyter Notebook](https://github.com/maggiesam/BEDU-DataScience/blob/main/Machine%20Learning/Equipo_4_Machine_Learning.ipynb)🗂
