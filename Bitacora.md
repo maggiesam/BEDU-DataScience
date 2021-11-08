@@ -131,7 +131,7 @@ Forecasting para la precipitación a 6 meses con random forest y error de 3872
 Forecasting con la función de selección de los hiperparametros a 24 meses para temperatura promedio con un error a 1.2040226273221546 por lo que el factor de
 aleatoriedad es muy importante
 
-la diferencia en cuanto a los hiperparametros y los parámetros es muy poca, por lo que se excluirá el uso de la función para encontrar los hiperparametros debido a que interfiera con
+La diferencia en cuanto a los hiperparametros y los parámetros es muy poca, por lo que se excluirá el uso de la función para encontrar los hiperparametros debido a que interfiera con
 otras funciones por las versiones de las librerías que se requieren
 
 
