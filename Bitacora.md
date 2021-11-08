@@ -145,8 +145,7 @@ Fecha | Num. capas | Num. capas densas | Num. Neuronas | Func. Activación | Num
 06-11-21 | 1 | 1 | 18 | RELU | 15 | 700 | 1.642 | No buenos
 06-11-21 | 1 | 1 | 8| RELU | 15 | 700 | 0.248 | Buenos
 
-
-
+Resultados obtenidos:
 
 Red neuronal Muna 1.36095568 sin los datos outliers 3.9
 
