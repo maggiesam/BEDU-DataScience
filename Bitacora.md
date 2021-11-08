@@ -135,9 +135,9 @@ La diferencia en cuanto a los hiperparametros y los parámetros es muy poca, por
 otras funciones por las versiones de las librerías que se requieren
 
 ## Bitácora de la Red Neuronal recurrente LSTM - Jesus Omar Magaña Medina
-Fecha | Num. de capas | Num. de Neuronas | Func. de Activación | MSE | Epocas | Resultado
--- | --
-03-11-21 | 3 
+Fecha | Num. capas | Num. capas densas | Num. Neuronas | Func. Activación | Num. meses de base | Epocas | MSE | Resultado
+-- | -- | -- | -- | -- | -- | -- | -- | --
+03-11-21 | 3 | 2 | 100, 256, 100 | RELU | 15 | 100 | 5.400 | No buenos
 
 
 
