@@ -92,7 +92,7 @@ Entrenamiento: MSE =502.2289446688361 Pruebas: MSE =879.5097654972043
 Grado 3 con mes enero
 Entrenamiento: MSE =410.9400772042837 Pruebas: MSE =1435.588469170785
 
-##Bitácora forecasting Efraín Soto (regresión lineal, random forest, red neutonal de estados del sur)
+## Bitácora forecasting Efraín Soto (regresión lineal, random forest, red neutonal de estados del sur)
 
 El forecasting a 24 meses con  regresión lineal obtuvo un error de 1.79914032999 para la temperatura promedio
 
