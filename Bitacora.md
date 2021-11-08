@@ -138,34 +138,60 @@ otras funciones por las versiones de las librerías que se requieren
 Red neuronal Muna 1.36095568 sin los datos outliers 3.9
 
 Red neuronal Yucatán Motul 2.0661826997254567
+
 Red neuronal Yucatán Peto 1.5167553000494511
+
 Red neuronal Yucatán Rio Lagartos 1.0607660893450739
+
 Red neuronal Yucatán Tizimín 0.9429591903644475
+
 Red neuronal Yucatán Mocochá 1.0553002765349526
+
 Red neuronal Yucatán Oxkutzcab 1.4019736380710366
 
+
 Red neuronal Campeche Palizada 1.6436496467391326
+
 Red neuronal Campeche Sabancuy 1.3403760082052025
+
 Red neuronal Campeche Campeche 1.2867122981000927
 
+
 Red neuronal Tabasco Tenosique de Pino Suárez 1.6673301460089072
+
 Red neuronal Tabasco Macuspana 1.4023028993952262
+
 Red neuronal Tabasco Habanero 1.2867790386001323
+
 Red neuronal Tabasco Capitan Felipe Castellanos Díaz (San Pedro) 1.9325713092380865
 
+
 Red neuronal Oaxaca San Pedro Quiatoni 0.5066049279666287
+
 Red neuronal Oaxaca San Jerónimo Ixtepec 0.8102670953388078
+
 Red neuronal Oaxaca Santo Domingo Zanatepec 0.9264886092537115
+
 Red neuronal Oaxaca Magdalena Tequisistlán 1.3891505233595367
 
+
 Red neuronal Quintana Roo Felipe Carrillo Puerto 1.1579004923829412
+
 Red neuronal Quintana Roo Chetumal 1.7424919057492327
 
+
 Red neuronal Puebla San Pedro Zacachimalpa 1.3564002992735806
+
 Red neuronal Puebla Chietla 1.0928813774818509
+
 Red neuronal Puebla San Miguel Tenextatiloyan 1.2071596413976173
+
 Red neuronal Puebla Axutla 0.46127609898263844
+
 Red neuronal Puebla Tehuacan 1.039809188573151
+
 Red neuronal Puebla Teziutlan 1.2840090006554783
+
 Red neuronal Puebla Huauchinango 0.8822362658018856
+
 Red neuronal Puebla Xicotepec de Juarez 1.2073015022249691
